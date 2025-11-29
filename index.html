@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barber Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <nav class="nav">
+      <h1 class="logo">Barber Studio</h1>
+      <a href="#booking" class="nav-btn">Book Now</a>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Clean Cuts. Sharp Fades.</h2>
+      <p>Premium grooming experience by appointment only.</p>
+      <a href="#booking" class="primary-btn">Book a Slot</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Services -->
+    <section id="services" class="section">
+      <h2 class="section-title">Services</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Classic Haircut</h3>
+          <p>Clean, simple, and sharp. Perfect for any occasion.</p>
+          <span class="price">R120</span>
+        </div>
+        <div class="card">
+          <h3>Fade &amp; Beard</h3>
+          <p>Skin fade with beard shape-up and razor finish.</p>
+          <span class="price">R180</span>
+        </div>
+        <div class="card">
+          <h3>Full Grooming</h3>
+          <p>Haircut, beard, and hot towel finish.</p>
+          <span class="price">R220</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking -->
+    <section id="booking" class="section section-alt">
+      <h2 class="section-title">Book on WhatsApp</h2>
+      <p class="section-subtitle">
+        Fill in your details and we’ll send everything straight to WhatsApp.
+      </p>
+
+      <form id="booking-form" class="booking-form">
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required placeholder="Your name" />
+        </div>
+
+        <div class="form-row">
+          <label for="date">Preferred Date</label>
+          <input type="date" id="date" required />
+        </div>
+
+        <div class="form-row">
+          <label for="time">Preferred Time</label>
+          <input type="time" id="time" required />
+        </div>
+
+        <div class="form-row">
+          <label for="service">Service</label>
+          <select id="service" required>
+            <option value="">Select service</option>
+            <option value="Classic Haircut">Classic Haircut</option>
+            <option value="Fade & Beard">Fade & Beard</option>
+            <option value="Full Grooming">Full Grooming</option>
+          </select>
+        </div>
+
+        <button type="submit" class="primary-btn full-width">
+          Send Booking via WhatsApp
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Barber Studio. All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

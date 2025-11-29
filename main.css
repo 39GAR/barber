@@ -5,7 +5,7 @@
   --text: #111111;
   --muted: #555555;
   --card-bg: #ffffff;
-  --accent: #e53935;         /* 🔴 main red */
+  --accent: #ff0000;         /* 🔴 main red */
   --nav-bg: transparent;
   --overlay-start: rgba(0, 0, 0, 0.7);
   --overlay-end: rgba(0, 0, 0, 0.4);

@@ -165,7 +165,7 @@ body.dark .theme-toggle {
 }
 
 .primary-btn:hover {
-  filter: brightness(0.8);
+  filter: brightness(0.5);
 }
 
 .full-width {

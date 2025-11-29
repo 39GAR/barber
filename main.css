@@ -5,7 +5,7 @@
   --text: #111111;
   --muted: #555555;
   --card-bg: #ffffff;
-  --accent: #ff0000;         /* 🔴 main red */
+  --accent: #ff0000;
   --nav-bg: transparent;
   --overlay-start: rgba(0, 0, 0, 0.7);
   --overlay-end: rgba(0, 0, 0, 0.4);
@@ -19,7 +19,7 @@ body.dark {
   --text: #f9f9ff;           /* main text */
   --muted: #b0b3c6;          /* softer text */
   --card-bg: #1f2233;        /* card background */
-  --accent: #ff5252;         /* slightly brighter red in dark */
+  --accent: #ff0000;         /* slightly brighter red in dark */
   --nav-bg: rgba(3, 3, 8, 0.9);
   --overlay-start: rgba(0, 0, 0, 0.9);
   --overlay-end: rgba(0, 0, 0, 0.7);
@@ -156,7 +156,7 @@ body.dark .theme-toggle {
   padding: 10px 20px;
   border-radius: 999px;
   border: none;
-  background: var(--accent);   /* 🔴 red */
+  background: #ff0000;
   color: #111;
   font-weight: 600;
   text-decoration: none;
@@ -165,7 +165,7 @@ body.dark .theme-toggle {
 }
 
 .primary-btn:hover {
-  filter: brightness(0.95);
+  filter: brightness(0.8);
 }
 
 .full-width {

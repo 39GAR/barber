@@ -43,7 +43,7 @@ body {
   border-radius: 999px;
   border: 1px solid #fff;
   text-decoration: none;
-  color: #fff;
+  color: #ff0000;
   font-size: 0.9rem;
 }
 
@@ -71,7 +71,8 @@ body {
   padding: 10px 20px;
   border-radius: 999px;
   border: none;
-  background: #ffb400;
+  background: #ff0000;
+
   color: #111;
   font-weight: 600;
   text-decoration: none;

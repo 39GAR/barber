@@ -37,12 +37,6 @@ body {
   background: var(--bg);
 }
 
-
-body {
-  color: #111;
-  background: #f5f5f5;
-}
-
 /* Hero */
 .hero {
   position: relative;
@@ -57,30 +51,7 @@ body {
   background: linear-gradient(to bottom right, var(--overlay-start), var(--overlay-end));
 }
 
-
-.nav {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 8vw;
-}
-
-.logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-}
-
-.nav-btn {
-  padding: 8px 16px;
-  border-radius: 999px;
-  border: 1px solid #fff;
-  text-decoration: none;
-  color: #ff0000;
-  font-size: 0.9rem;
-}
-/* Under the Navs */
+/* Nav */
 .nav {
   position: relative;
   z-index: 1;
@@ -92,10 +63,24 @@ body {
   backdrop-filter: blur(12px);
 }
 
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
 .nav-right {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #ff0000; /* change if you want */
+  font-size: 0.9rem;
 }
 
 .theme-toggle {
@@ -116,7 +101,7 @@ body.dark .theme-toggle {
   background: rgba(0, 0, 0, 0.4);
 }
 
-
+/* Hero content */
 .hero-content {
   position: relative;
   z-index: 1;
@@ -178,7 +163,6 @@ body.dark .theme-toggle {
   margin-bottom: 24px;
 }
 
-
 /* Cards */
 .cards {
   display: grid;
@@ -194,7 +178,6 @@ body.dark .theme-toggle {
   box-shadow: var(--shadow-soft);
 }
 
-
 .card h3 {
   margin-bottom: 6px;
 }
@@ -204,7 +187,6 @@ body.dark .theme-toggle {
   color: var(--muted);
   margin-bottom: 10px;
 }
-
 
 .price {
   font-weight: 700;

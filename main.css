@@ -54,7 +54,7 @@ body,
 .hero {
   position: relative;
   min-height: 70vh;
-  background: url("https://images.pexels.com/photos/3998429/pexels-photo-3998429.jpeg")
+  background: url("https://res.cloudinary.com/dodevsdjg/image/upload/v1764728743/ChatGPT_Image_Dec_3_2025_04_24_17_AM_pfsnip.png")
     center/cover no-repeat;
   color: #fff;
 }

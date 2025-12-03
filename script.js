@@ -13,7 +13,7 @@ if (form) {
     const time = document.getElementById("time").value;
     const service = document.getElementById("service").value;
 
-    const phone = "2772XXXXXXX"; // replace with the barber's number without "+"
+    const phone = "27676895703"; // replace with the barber's number without "+"
 
     const message = `
 New Barber Booking:
